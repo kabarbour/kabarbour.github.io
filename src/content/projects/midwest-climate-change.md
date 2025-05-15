@@ -3,7 +3,7 @@ title: "Midwest Climate Change"
 subtitle: "Tracking the Midwest's Rising Temperatures"
 description: "Interactive site exploring how climate change is affecting the Midwest, with a focus on rising temperatures and heatwaves"
 pubDate: "2024-12-10"
-heroImage: "/images/climate-map.png"
+heroImage: "/personal/images/climate-map.png"
 badge: "FINAL PROJECT"
 tags: ["R", "R Markdown"]
 course: "MVIS 5702 Visualization in Practice"
@@ -13,7 +13,7 @@ course: "MVIS 5702 Visualization in Practice"
 
 This interactive site explores how climate change is already affecting the Midwest — through rising temperatures, longer heatwaves, and increasing health risks. Built in R Markdown with data from the World Resources Institute, it shows how a global crisis is playing out in local, everyday ways.
 
-![Chart example](/personal/images/climate-cover.png)
+![Illustration called "preparing for our climate future"](/personal/images/climate-cover.png)
 
 ### **The Question**
 
@@ -30,7 +30,7 @@ Designed for skeptical or unsure Midwestern adults, the project centers on 11 ci
 
 Charts are paired with news stories and calendar-style visuals to ground abstract data in lived experience.
 
-![Chart example](/personal/images/climate-models.png)
+![Table showing Heatwave Count by Model and Scenario](/personal/images/climate-models.png)
 
 ### **Key Insights**
 

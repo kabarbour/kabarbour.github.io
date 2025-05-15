@@ -3,7 +3,7 @@ title: "Why Do Sweaters Suck?"
 subtitle: "A Guide to Finding Sweaters That Last"
 description: "Figma prototype guiding users through sweater shopping while exploring the impact of synthetic fabrics like polyester."
 pubDate: "2025-03-15"
-heroImage: "/images/sweater-content.png"
+heroImage: "/personal/images/sweater-content.png"
 tags: ["Figma", "UX Design"]
 badge: "DATA VIZ"
 course: "MVIS 5105 Interactive Data Storytelling"
@@ -25,7 +25,7 @@ Designed for budget-conscious 20-somethings frustrated by fast fashion, the piec
 - Breakdowns of natural vs synthetic materials
 - Tips for identifying better sweaters (by label and feel)
 
-![Chart example](/personal/images/sweater-production.png)
+![Fiber Production has Exploded around the world](/personal/images/sweater-production.png)
 
 ### **Key Insights**
 
@@ -36,7 +36,6 @@ Designed for budget-conscious 20-somethings frustrated by fast fashion, the piec
 ### **Reflection**
 
 The biggest challenge was keeping the tone clear and helpful while still showing meaningful data. I’d love to expand this into a full site with a shopping tool or material glossary, but this project already helped demystify a common frustration.
-
 
 
 <div class="text-center">

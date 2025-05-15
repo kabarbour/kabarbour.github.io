@@ -4,7 +4,7 @@ title: "Taylor EDA"
 subtitle: "Taylor Swift's Sound Evolution"
 description: "Data-driven look at how Taylor Swift’s sound has changed across albums and rerecordings, built with Spotify audio features."
 pubDate: "2025-04-15"
-heroImage: "/images/taylor-eda.png"
+heroImage: "/personal/images/taylor-eda.png"
 badge: "DATA VIZ"
 tags: ["R", "R Markdown"]
 course: "MVIS 5303 Exploring Data (Statistics II)"
@@ -34,7 +34,7 @@ Made for fans and casual listeners who follow data-driven music content. Built a
 - Shifts in acousticness and production style
 - Differences (or lack thereof) between Taylor’s Version and original tracks
 
-![alt text](/personal/images/taylor-acoustic.png) 
+![Average Acousticness value per Era/Album](/personal/images/taylor-acoustic.png) 
 
 ### **Key Insights**
 
@@ -43,7 +43,7 @@ Made for fans and casual listeners who follow data-driven music content. Built a
 - The **real shift** happens when producer teams change — especially when original collaborators don’t return
 
 
-![alt text](/personal/images/taylor-danceability.png) 
+![Comparison of Danceability between Original and Taylor's Version](/personal/images/taylor-danceability.png) 
 
 ### **Reflection & Next Steps**
 

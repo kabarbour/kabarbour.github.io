@@ -3,7 +3,7 @@ title: "Romance, Rewritten"
 subtitle: "What Today's Romances Say About Us"
 description: "A data storytelling project exploring how romance novels have changed from 2009 to 2024."
 pubDate: "2025-05-10"
-heroImage: "/images/romance-header.png"
+heroImage: "/personal/images/romance-header.png"
 badge: "CAPSTONE PROJECT"
 tags: ["Python", "Illustrator", "Flourish", "Vev"]
 course: "MVIS 5705 Capstone I & II"
@@ -19,7 +19,7 @@ This was my capstone project (and the project I am most proud of at my time in t
 
 Are romance novels changing — or just the way we talk about them? This project asks what the rise in tags like *grumpy/sunshine*, *strong & independent*, and *mental health* reveals about shifting genre norms and reader expectations.
 
-![alt text](/personal/images/romance-tropes.png)
+![The Language of Love: Tracking the Rise of Trope Tagging 2009-2024](/personal/images/romance-tropes.png)
 
 ### **Audience & Format**
 
@@ -29,7 +29,7 @@ Made for younger romance readers (especially Gen Z), the site blends storytellin
 - Charts tracking the **decline of Alpha Males** and **rise of emotionally available heroes**
 - A waffle chart of **Strong & Independent heroines** built from book covers
 
-![heroines](/personal/images/romance-heroines.png)
+![Strong and Independent Heroines in 2024](/personal/images/romance-heroines.png)
 
 ### **Key Insights**
 
@@ -37,7 +37,7 @@ Made for younger romance readers (especially Gen Z), the site blends storytellin
 - Warm, emotionally available male leads are rising — Alpha Males are falling
 - Tags for death, abuse, and mental health are climbing, reflecting a shift toward emotional transparency
 
-![alt text](/personal/images/romance-grumpy.png) 
+![Grumpy/Sunshine Searches increase at same time as books tagged](/personal/images/romance-grumpy.png) 
 
 ### **Reflection**
 
