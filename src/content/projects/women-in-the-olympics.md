@@ -39,11 +39,11 @@ If extended, I’d continue refining the final slides for visual consistency and
 
 <div class="text-center">
   <a 
-    href="/olympics_kbarbour_final.pdf"
+    href="/personal/olympics_kbarbour_final.pdf"
     class="text-primaryPurple text-xl underline hover:text-black"
     target="_blank"
     rel="noopener noreferrer"
   >
-    View Website
+    View Project
   </a>
 </div>

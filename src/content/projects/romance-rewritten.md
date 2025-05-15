@@ -61,7 +61,7 @@ This project shows how tagging behavior can reveal deeper cultural changes — e
 
 <div class="text-center">
   <a 
-    href="/romance_kbarbour_brief.pdf"
+    href="/personal/romance_kbarbour_brief.pdf"
     class="text-primaryPurple text-xl underline hover:text-black"
     target="_blank"
     rel="noopener noreferrer"
