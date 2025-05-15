@@ -25,7 +25,7 @@ Designed for budget-conscious 20-somethings frustrated by fast fashion, the piec
 - Breakdowns of natural vs synthetic materials
 - Tips for identifying better sweaters (by label and feel)
 
-![Chart example](/images/sweater-production.png)
+![Chart example](/personal/images/sweater-production.png)
 
 ### **Key Insights**
 

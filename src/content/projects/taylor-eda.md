@@ -34,7 +34,7 @@ Made for fans and casual listeners who follow data-driven music content. Built a
 - Shifts in acousticness and production style
 - Differences (or lack thereof) between Taylor’s Version and original tracks
 
-![alt text](/images/taylor-acoustic.png) 
+![alt text](/personal/images/taylor-acoustic.png) 
 
 ### **Key Insights**
 
@@ -43,7 +43,7 @@ Made for fans and casual listeners who follow data-driven music content. Built a
 - The **real shift** happens when producer teams change — especially when original collaborators don’t return
 
 
-![alt text](/images/taylor-danceability.png) 
+![alt text](/personal/images/taylor-danceability.png) 
 
 ### **Reflection & Next Steps**
 

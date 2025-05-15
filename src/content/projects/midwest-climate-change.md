@@ -13,7 +13,7 @@ course: "MVIS 5702 Visualization in Practice"
 
 This interactive site explores how climate change is already affecting the Midwest — through rising temperatures, longer heatwaves, and increasing health risks. Built in R Markdown with data from the World Resources Institute, it shows how a global crisis is playing out in local, everyday ways.
 
-![Chart example](/images/climate-cover.png)
+![Chart example](/personal/images/climate-cover.png)
 
 ### **The Question**
 
@@ -30,7 +30,7 @@ Designed for skeptical or unsure Midwestern adults, the project centers on 11 ci
 
 Charts are paired with news stories and calendar-style visuals to ground abstract data in lived experience.
 
-![Chart example](/images/climate-models.png)
+![Chart example](/personal/images/climate-models.png)
 
 ### **Key Insights**
 
