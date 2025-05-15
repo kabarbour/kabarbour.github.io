@@ -26,6 +26,8 @@ Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
 arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
 tempus urna et pharetra pharetra massa massa ultricies mi.
 
+"/post_img.webp"
+
 Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
 sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
 Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna

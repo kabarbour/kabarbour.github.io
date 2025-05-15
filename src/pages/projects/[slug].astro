@@ -1,0 +1,36 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import { ProjectSchema } from "../../content/config";
+import ProjectPostLayout from "../../layouts/ProjectLayout.astro";
+import createSlug from "../../lib/createSlug";
+
+export async function getStaticPaths() {
+  const projectEntries = await getCollection("projects");
+  return projectEntries.map((entry) => ({
+    params: { slug: createSlug(entry.data.title, entry.slug) },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"projects">;
+}
+
+const { entry }: Props = Astro.props;
+const project: ProjectSchema = entry.data;
+const { Content } = await entry.render();
+---
+
+<ProjectPostLayout
+  title={project.title}
+  description={project.description}
+  subtitle={project.subtitle}
+  pubDate={project.pubDate}
+  heroImage={project.heroImage}
+  updatedDate={project.updatedDate}
+  badge={project.badge}
+  tags={project.tags}
+  course={project.course}
+>
+  <Content />
+</ProjectPostLayout>

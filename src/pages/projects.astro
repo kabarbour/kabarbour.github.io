@@ -3,49 +3,57 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title = "PROJECTS" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 text-primaryPurple">Favorites</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Romance, Rewritten"
+    subtitle="What Today's Romances Say About Us"
+    img="/images/romance-header.png"
+    desc="Website exploring how romance novels have changed over the past 15 years, made for readers curious about how love stories are told."
+    url="/projects/romance-rewritten"
+    badge="CAPSTONE"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Taylor EDA"
+    subtitle="Taylor Swift's Sound Evolution"
+    img="/images/taylor-eda.png"
+    desc="Data-driven look at how Taylor Swift’s sound has changed across albums and rerecordings, built with Spotify audio features."
+    url="/projects/taylor-eda"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10 text-primaryPurple">MICA Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Midwest Climate Change"
+    subtitle="Tracking the Midwest's Rising Temperatures"
+    img="/images/climate-map.png"
+    desc="Interactive site exploring how climate change is affecting the Midwest, with a focus on rising temperatures and heatwaves"
+    url="/projects/midwest-climate-change"
   />
   <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Why Do Sweaters Suck?"
+    subtitle="A Guide to Finding Sweaters that Last"
+    img="/images/sweater-content.png"
+    desc="Figma prototype guiding users through sweater shopping while exploring the impact of synthetic fabrics like polyester."
+    url="/projects/why-do-sweaters-suck"
   />
+  
   <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Women in the Olympics"
+    subtitle="The Long Climb to Gender Balance in the Olympics"
+    img="/images/olympics-front.png"
+    desc="Visualization of the growing presence of women in the Olympics, highlighting milestones and gender parity at the 2024 Games."
+    url="/projects/women-in-the-olympics"
   />
+  
 </BaseLayout>

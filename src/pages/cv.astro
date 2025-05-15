@@ -5,55 +5,84 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold text-primaryPurple">Profile</div>
   </div>
 
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="mb-10 text-lg leading-relaxed max-w-3xl"> 
+    Hi! 👋 I’m Kaitlyn!<br /><br />    
+    I'm a recent Data Analytics & Visualization Masters grad from MICA and current ServiceNow Developer at <a href="https://oit.nd.edu/" class="text-blue-600 underline hover:text-blue-800" target="_blank" rel="noopener noreferrer">NDOIT</a>. I studied Political Science & Design at Notre Dame, minored in Computing & Digital Technologies, and have a spreadsheet for everything (including my bookshelf). <br /><br />
+    When I’m not playing around in Tableau or Google Sheets, you’ll find me reading a romance or fantasy novel, listening to Taylor Swift, knitting a sweater I may or may not finish, or trying out yet another artsy hobby.
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-3xl font-bold text-primaryPurple">Education</div>
+
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Masters, Data Analytics & Visualization"
+      subtitle="2025, Maryland Institute College of Art"
     />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+    <TimeLineElement title="Bachelor of Arts, Political Science & Design">
+      <div slot="subtitle" class="font-light text-md">
+        2018 to 2024 at University of Notre Dame, Notre Dame, Indiana
+      </div>
+      <ul class="list-disc pl-5 mt-2 space-y-1">
+        <li>Majors: Political Science, Visual Communication Design</li>
+        <li>Minor: Computing & Digital Technologies</li>
+      </ul>
+    </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-3xl font-bold text-primaryPurple">Experience</div>
   </div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-  </div>
+ <div class="time-line-container mb-10">
+  <TimeLineElement
+    title="ServiceNow AI Developer Associate"
+    subtitle="Feb 2024 — Present at Office of Information Technologies, Notre Dame, IN"
+  >
+    <ul class="list-disc pl-5 mt-2 space-y-1">
+      <li>Collaborate with cross-functional teams to design and implement virtual agent solutions in ServiceNow.</li>
+      <li>Utilize NLP expertise to craft natural and user-friendly conversations for improved user satisfaction.</li>
+      <li>Monitor and analyze virtual agent performance to drive iterative improvements.</li>
+    </ul><br>
+  </TimeLineElement>
+
+  <TimeLineElement
+    title="IT Fellow Associate (Rotational Development Program)"
+    subtitle="June 2022 — Feb 2024 at Office of Information Technologies, Notre Dame, IN"
+  >
+    <ul class="list-disc pl-5 mt-2 space-y-1">
+      <li>Optimized 20+ forms and workflows in ServiceNow to enhance service delivery and user experience.</li>
+      <li>Consulted on form/workflow requirements and built flows using Flow Designer.</li>
+      <li>Built Tableau reports supporting decisions for Zoom support and campus learning space renovations.</li>
+      <li>Collaborated in AI Automation Working Group exploring innovative AI use cases for automation.</li>
+    </ul><br>
+  </TimeLineElement>
+
+  <TimeLineElement
+    title="Help Desk Student Consultant"
+    subtitle="June 2018 — June 2022 at IT Help Desk, Notre Dame, IN"
+  >
+    <ul class="list-disc pl-5 mt-2 space-y-1">
+      <li>Troubleshot hardware, software, and network issues including MFA, account access, and printing support.</li>
+    </ul><br>
+  </TimeLineElement>
+
+  <TimeLineElement
+    title="Student Video Technician & Global Classroom Manager"
+    subtitle="June 2020 — May 2022 at Notre Dame Studios, Notre Dame, IN"
+  >
+    <ul class="list-disc pl-5 mt-2 space-y-1">
+      <li>Managed live stream setup and support via Zoom, post-production, and student onboarding for Global Classroom.</li>
+      <li>Ran teleprompters for broadcasts, edited video in Premiere, and managed media asset logging.</li>
+    </ul>
+  </TimeLineElement>
+</div>
+
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
@@ -61,10 +90,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="#" target="_blank"> ServiceNow Certified System Administrator, May 2023-present</a>
     </li>
   </ul>
 
@@ -73,20 +99,15 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Tableau</li>
+    <li>Python</li>
+    <li>R</li>
+    <li>Google Sheets</li>
+    <li>Figma</li>
+    <li>Adobe Photoshop</li>
+    <li>Adobe InDesign</li>
+    <li>Adobe Illustrator</li>
+    <li>Adobe Premiere Pro</li>
+    <li>Adobe XD</li>
   </ul>
 </BaseLayout>

@@ -3,8 +3,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
-  integrations: [mdx(), sitemap(), tailwind()]
+  site: 'https://kabarbour.github.io/personal', // ✅ must match your GitHub Pages URL
+  base: '/personal/',                           // ✅ must match your repo name
+  integrations: [mdx(), sitemap(), tailwind()],
 });
