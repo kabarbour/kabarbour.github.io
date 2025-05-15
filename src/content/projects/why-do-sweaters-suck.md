@@ -4,7 +4,7 @@ subtitle: "A Guide to Finding Sweaters That Last"
 description: "Figma prototype guiding users through sweater shopping while exploring the impact of synthetic fabrics like polyester."
 pubDate: "2025-03-15"
 heroImage: "/personal/images/sweater-content.png"
-tags: ["Figma", "UX Design"]
+tags: ["Figma"]
 badge: "DATA VIZ"
 course: "MVIS 5105 Interactive Data Storytelling"
 ---

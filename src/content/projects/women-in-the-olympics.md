@@ -5,7 +5,7 @@ description: "Visualization of the growing presence of women in the Olympics, hi
 pubDate: "2024-08-19"
 heroImage: "/personal/images/olympics-front.png"
 badge: "DATA VIZ"
-tags: ["Illustrator"]
+tags: ["R", "Illustrator"]
 course: "MVIS 5101 Designing Visual Information"
 ---
 

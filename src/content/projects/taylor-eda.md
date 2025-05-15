@@ -1,5 +1,4 @@
 ---
-
 title: "Taylor EDA"
 subtitle: "Taylor Swift's Sound Evolution"
 description: "Data-driven look at how Taylor Swift’s sound has changed across albums and rerecordings, built with Spotify audio features."
