@@ -43,9 +43,7 @@ Made for younger romance readers (especially Gen Z), the site blends storytellin
 
 This project shows how tagging behavior can reveal deeper cultural changes — even when it’s unclear if the content itself has shifted. With more time, I’d expand to include self-published books and analyze reader reviews to understand not just what’s tagged, but *how* readers talk about love today.
 
-
-
-
+The website is only optimized for a desktop experience right now. That was one of my big limitations, in the future I'd love to explore making it mobile friendly.
 
 <div class="text-center">
   <a 
@@ -58,6 +56,7 @@ This project shows how tagging behavior can reveal deeper cultural changes — e
   </a>
 </div>
 
+To read more about my data collection process, etc, read the brief below!
 
 <div class="text-center">
   <a 
